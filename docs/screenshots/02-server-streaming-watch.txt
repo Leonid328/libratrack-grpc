@@ -1,2 +1,2 @@
 слідкуємо за copy-1 (Ctrl+C — вийти)...
-21:43:45.179  copy-1 -> AVAILABLE
+21:53:51.256  copy-1 -> AVAILABLE

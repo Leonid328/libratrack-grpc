@@ -17,7 +17,7 @@ https://github.com/Leonid328/libratrack-grpc
 ```bash
 make test
 make smoke
-bash scripts/capture-homework-demos.sh
+bash scripts/run-playwright-capture.sh   # Playwright (system Chrome) + terminal PNGs
 ```
 
 ## Screenshots / video
