@@ -1,0 +1,13 @@
+bash scripts/smoke.sh
+gRPC:
+  OK   GetCopy повертає Copy
+  OK   GetCopy невідомий -> NotFound
+  OK   Register дубль -> AlreadyExists
+  OK   Bulk реєструє партію
+  OK   Sync підтверджує події
+  OK   Watch завершується io.EOF
+REST (gateway):
+  OK   GET /v1/copies/copy-1 -> 200
+  OK   GET невідомий -> 404
+  OK   POST дубль -> 409
+ВСЕ ГАРАЗД

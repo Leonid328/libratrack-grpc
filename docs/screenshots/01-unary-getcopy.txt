@@ -1,0 +1,6 @@
+{
+  "id":  "copy-1",
+  "book_id":  "book-1",
+  "inventory_number":  "INV-0001",
+  "status":  "AVAILABLE"
+}

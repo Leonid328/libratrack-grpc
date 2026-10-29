@@ -1,0 +1,8 @@
+{
+  "registered":  2,
+  "failed":  0,
+  "copy_ids":  [
+    "copy-4",
+    "copy-5"
+  ]
+}

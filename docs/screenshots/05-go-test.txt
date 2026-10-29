@@ -1,0 +1,12 @@
+ok  	libratrack/bench	0.766s
+?   	libratrack/cmd/gateway	[no test files]
+?   	libratrack/cmd/gencerts	[no test files]
+?   	libratrack/cmd/inventory-client	[no test files]
+?   	libratrack/cmd/inventory-server	[no test files]
+?   	libratrack/cmd/mint-token	[no test files]
+?   	libratrack/gen/inventory	[no test files]
+ok  	libratrack/internal/auth	1.500s
+?   	libratrack/internal/middleware	[no test files]
+ok  	libratrack/internal/server	1.214s
+?   	libratrack/internal/store	[no test files]
+?   	libratrack/internal/tlsconf	[no test files]

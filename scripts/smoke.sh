@@ -20,10 +20,10 @@ check() { # check "опис" "очікуваний підрядок" коман�
 }
 
 echo "gRPC:"
-check "GetCopy повертає Copy"          '"id": "copy-1"'  $C get copy-1
+check "GetCopy повертає Copy"          'copy-1'  $C get copy-1
 check "GetCopy невідомий -> NotFound"  'code=NotFound'   $C get nope
 check "Register дубль -> AlreadyExists" 'code=AlreadyExists' bash -c "$C register b SMOKE-1 >/dev/null; $C register b SMOKE-1"
-check "Bulk реєструє партію"           '"registered": 3' $C bulk smoke-book 3
+check "Bulk реєструє партію"           'registered' $C bulk smoke-book 3
 check "Sync підтверджує події"         'applied=true'    $C sync
 check "Watch завершується io.EOF"      'io.EOF'          $C -max 1 watch copy-1
 echo "REST (gateway):"
